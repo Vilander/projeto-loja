@@ -16,7 +16,11 @@ function App() {
     setProdutos([
       { id: 1, nome: 'Camiseta', preco: 50 },
       { id: 2, nome: 'Calça', preco: 120 },
-      { id: 3, nome: 'Tênis', preco: 200 }
+      { id: 3, nome: 'Tênis', preco: 200 },
+      { id: 4, nome: 'Boné', preco: 30 },
+      { id: 5, nome: 'Blusa', preco: 300 },
+      { id: 6, nome: 'Bermuda', preco: 70 }
+
     ])
   }, [])
 
