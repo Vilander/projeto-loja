@@ -1,3 +1,5 @@
+//Carrinho.jsx
+
 export default function Carrinho({ carrinho }) {
   const total = carrinho.reduce((soma, item) => soma + item.preco, 0)
 
