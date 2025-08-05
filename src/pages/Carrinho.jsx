@@ -1,6 +1,4 @@
-//Carrinho.jsx
-
-export default function Carrinho({ carrinho }) {
+export default function Carrinho({ carrinho, removerDoCarrinho }) {
   const total = carrinho.reduce((soma, item) => soma + item.preco, 0)
 
   return (
@@ -13,8 +11,12 @@ export default function Carrinho({ carrinho }) {
         <>
           <ul>
             {carrinho.map((item, index) => (
-              <li key={index}>
+              <li key={index} style={{ marginBottom: '1rem' }}>
                 {item.nome} - R$ {item.preco}
+                <br />
+                <button onClick={() => removerDoCarrinho(index)}>
+                  Remover
+                </button>
               </li>
             ))}
           </ul>
