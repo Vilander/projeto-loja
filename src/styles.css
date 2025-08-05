@@ -88,6 +88,12 @@ main {
   flex-wrap: nowrap;
   align-items: center;
   font-weight: 600;
+  width: 13rem;
+  background-color: #ffecad26;
+  margin: 5rem 2rem;
+  padding: 5rem 0rem 1rem;
+  border-radius: 8px;
+  box-shadow: 3px 5px 8px 0px #555;
 }
 
 .prod-btn {
